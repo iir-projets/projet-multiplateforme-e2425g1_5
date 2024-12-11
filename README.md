@@ -1,7 +1,28 @@
-<<<<<<< HEAD
-# flutter_app
+Health Tracker App
+Une application mobile développée avec Flutter et Firebase, conçue pour aider les utilisateurs à surveiller et améliorer leur santé physique de manière efficace.
 
-A new Flutter project.
-=======
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/SxSZxXKi)
->>>>>>> fc0f545954b57984d39d32d430a9d044d6a527ab
+Fonctionnalités principales
+1. Suivi du poids et calcul de l'IMC
+Permet de suivre l'évolution du poids de l'utilisateur.
+Calcul automatique de l'Indice de Masse Corporelle (IMC).
+Génération de recommandations hebdomadaires personnalisées basées sur l'IMC et les objectifs de poids.
+
+3. Suivi des activités physiques
+Enregistrement des activités physiques et des calories brûlées.
+Visualisation des progrès en temps réel a l'aide des graphes.
+
+5. Gestion de l'alimentation
+Journal alimentaire pour suivre les repas et les apports nutritionnels.
+Suggestions pour équilibrer l'alimentation selon les objectifs de santé.
+
+7. Analyses et rappels quotidiens
+Génération d'analyses personnalisées basées sur les données enregistrées.
+Envoi de notifications quotidiennes pour rappeler les tâches et maintenir la motivation.
+
+9. Rapports téléchargeables
+Exportation des données enregistrées sous forme de rapports hebdomadaires, journaliers ou mensuels.
+Rapports détaillés pour suivre les progrès à long terme.
+
+10. Technologies utilisées
+Flutter : pour le développement de l'interface utilisateur multiplateforme.
+Firebase : pour la gestion de l'authentification, de la base de données en temps réel et des notifications.
