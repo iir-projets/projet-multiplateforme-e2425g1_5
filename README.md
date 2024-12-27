@@ -13,12 +13,16 @@ L'application de suivi de santé est une solution complète pour aider les utili
 - **Suivi des Mesures** :
   - Enregistrez votre poids, taille, et autres mesures corporelles.
   - Fixez des objectifs de perte ou de gain de poids.
+  - Calculer votre Indice De Masse Corporelle.
+  - Obtenez un plan de la semaine coté nutrition et activité physique pour arriver a un poids normal.
 - **Suivi de l'Activité Physique** :
   - Ajoutez des activités comme marche, course, natation, etc.
   - Enregistrez la durée et les calories brûlées.
+  - Visualisez tous vos activités.
 - **Suivi Nutritionnel** :
   - Enregistrez vos repas et suivez vos apports caloriques.
   - Analysez les macronutriments (protéines, glucides, lipides).
+  - Visualisez tous vos repas.
 
 ### Analyse et Visualisation
 - **Tableau de Bord** :
