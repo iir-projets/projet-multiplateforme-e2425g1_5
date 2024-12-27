@@ -1,28 +1,68 @@
-Health Tracker App
-Une application mobile développée avec Flutter et Firebase, conçue pour aider les utilisateurs à surveiller et améliorer leur santé physique de manière efficace.
+# 🩺 Application de Suivi de Santé
 
-Fonctionnalités principales
-1. Suivi du poids et calcul de l'IMC:
-Permet de suivre l'évolution du poids de l'utilisateur.
-Calcul automatique de l'Indice de Masse Corporelle (IMC).
-Génération de recommandations hebdomadaires personnalisées basées sur l'IMC et les objectifs de poids.
+## Description
+L'application de suivi de santé est une solution complète pour aider les utilisateurs à surveiller et à améliorer leur santé physique. Grâce à des outils interactifs, des graphiques personnalisables et des conseils adaptés, cette application accompagne les utilisateurs dans leur parcours de santé en leur permettant de fixer des objectifs et de suivre leurs progrès.
 
-2. Suivi des activités physiques:
-Enregistrement des activités physiques et des calories brûlées.
-Visualisation des progrès en temps réel a l'aide des graphes.
+## Fonctionnalités
+### Gestion des Comptes
+- **Inscription** : Enregistrez-vous avec une adresse e-mail et un mot de passe.
+- **Connexion** : Accédez à votre compte pour suivre vos données.
+- **Gestion des données utilisateur** : Mise à jour des informations personnelles.
 
-3. Gestion de l'alimentation:
-Journal alimentaire pour suivre les repas et les apports nutritionnels.
-Suggestions pour équilibrer l'alimentation selon les objectifs de santé.
+### Suivi de la Santé
+- **Suivi des Mesures** :
+  - Enregistrez votre poids, taille, et autres mesures corporelles.
+  - Fixez des objectifs de perte ou de gain de poids.
+- **Suivi de l'Activité Physique** :
+  - Ajoutez des activités comme marche, course, natation, etc.
+  - Enregistrez la durée et les calories brûlées.
+- **Suivi Nutritionnel** :
+  - Enregistrez vos repas et suivez vos apports caloriques.
+  - Analysez les macronutriments (protéines, glucides, lipides).
 
-4. Analyses et rappels quotidiens:
-Génération d'analyses personnalisées basées sur les données enregistrées.
-Envoi de notifications quotidiennes pour rappeler les tâches et maintenir la motivation.
+### Analyse et Visualisation
+- **Tableau de Bord** :
+  - Affichez vos progrès dans des graphiques interactifs.
+  - Visualisez vos données sur des périodes personnalisables : jour, semaine, mois.
+- **Rapports Personnalisés** :
+  - Téléchargez des rapports PDF détaillés pour vos consultations médicales.
 
-5. Rapports téléchargeables:
-Exportation des données enregistrées sous forme de rapports hebdomadaires, journaliers ou mensuels.
-Rapports détaillés pour suivre les progrès à long terme.
+### Notifications et Conseils
+- **Rappels Quotidiens** :
+  - Notifications pour enregistrer vos données.
+  - Suggestions pour respecter vos objectifs de santé.
+- **Conseils Personnalisés** :
+  - Recommandations basées sur vos données pour améliorer votre bien-être.
 
-6. Technologies utilisées:
-Flutter : pour le développement de l'interface utilisateur multiplateforme.
-Firebase : pour la gestion de l'authentification, de la base de données en temps réel et des notifications.
+## Technologies Utilisées
+### Frontend
+- **Flutter** :
+  - Développement mobile multiplateforme (iOS et Android).
+  - Widgets interactifs et performants.
+  
+### Backend
+- **Firebase** :
+  - **Authentication** : Gestion des utilisateurs.
+  - **Cloud Firestore** : Base de données en temps réel.
+  - **Firebase Storage** : Stockage des fichiers (PDF).
+  - **Cloud Messaging** : Notifications push pour rappels.
+  - **Firebase Analytics** : Suivi des comportements utilisateur.
+
+### Autres
+- **Dart** : Langage principal pour Flutter.
+- **Chart.js** : Graphiques personnalisés dans Flutter.
+
+## Prérequis
+Avant de commencer, assurez-vous d'avoir installé :
+- [Flutter](https://flutter.dev/docs/get-started/install) (version recommandée : 3.x)
+- [Firebase CLI](https://firebase.google.com/docs/cli)
+- Android Studio ou VS Code (avec extensions Flutter/Dart)
+
+## Installation
+1. **Clonez le projet** :
+   ```bash
+   git clone https://github.com/username/suivi-sante.git
+   cd suivi-sante
+   flutter pub get
+   Configurer votre propre firebase console
+   flutter run
