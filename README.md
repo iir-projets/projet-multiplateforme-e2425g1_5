@@ -61,7 +61,7 @@ Avant de commencer, assurez-vous d'avoir installé :
 ## Installation
 1. **Clonez le projet** :
    ```bash
-   git clone https://github.com/username/suivi-sante.git
+   git clone https://github.com/iir-projets/projet-multiplateforme-e2425g1_5.git
    cd suivi-sante
    flutter pub get
    Configurer votre propre firebase console
