@@ -70,3 +70,5 @@ Avant de commencer, assurez-vous d'avoir installé :
    flutter pub get
    Configurer votre propre firebase console
    flutter run
+## Deploiement dans le Clous
+Visiter ce lien pour essayer l'application : https://health-care-app-fb1b8.web.app/
