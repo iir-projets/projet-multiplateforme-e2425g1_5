@@ -66,9 +66,9 @@ Avant de commencer, assurez-vous d'avoir installé :
 1. **Clonez le projet** :
    ```bash
    git clone https://github.com/iir-projets/projet-multiplateforme-e2425g1_5.git
-   cd suivi-sante
-   flutter pub get
+   Acceder a votre dossier
+   Run this command to get all the dependencies : flutter pub get
    Configurer votre propre firebase console
-   flutter run
-## Deploiement dans le Clous
-Visiter ce lien pour essayer l'application : https://health-care-app-fb1b8.web.app/
+   Run the application : flutter run
+## Deploiement dans le Cloud
+Visiter ce lien pour essayer l'application directement : https://health-care-app-fb1b8.web.app/
