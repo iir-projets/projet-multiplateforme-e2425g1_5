@@ -70,5 +70,4 @@ Avant de commencer, assurez-vous d'avoir installé :
    Run this command to get all the dependencies : flutter pub get
    Configurer votre propre firebase console
    Run the application : flutter run
-## Deploiement dans le Cloud
-Visiter ce lien pour essayer l'application directement : https://health-care-app-fb1b8.web.app/
+
